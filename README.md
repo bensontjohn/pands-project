@@ -1,7 +1,19 @@
 Background information:
+Iris dataset is a set of data introduced by Sir. R.A. Fisher, who was a British geneticist and statistician (1890-1962). He was one of the greatest scientist of the 20th generation and was one of the first to apply statistical procedures in designing scientific experimentation. The Iris dataset contains data from 50 samples each of three species of the Iris flower picked at random. The three species are:
 
-Iris dataset is a set of data introduced by Sir. R.A. Fisher (1). Sir. Fisher was a british geneticist and statistician  (1890-1962). He was one of the greatest scientist of the 20th generation and was one of the first to apply statistical procedures in designing scientific experimentation. (2)
-The Iris dataset contains data from 50 samples each of three species of the iris flower picked at random. It documents four features of each flower – sepal length, sepal width, petal length and petal width in cms. (1) One type of iris plant is linearly separable from the other 2 but these 2 are not linearly separable from each other. This is one of the most widely known database used in pattern recognition works and Fisher’s paper on it is frequently referenced. (3)
+1.	Iris Setosa
+2.	Iris Versicolour
+3.	Iris Virginica
+
+Each species of flowers has 4 features/attributes in centimeters(cms). They are:
+
+1.	Sepal length
+2.	Sepal width
+3.	Petal length
+4.	Petal width
+
+One type of iris plant is linearly separable from the other 2 but these 2 are not linearly separable from each other. This is one of the most widely known database used in pattern recognition works and Fisher’s paper on it is frequently referenced. 
+
 
 References:
 1.	Fisher, RA (1936) The use of multiple measuremetns in taxonomic problems. Annals of Eugenics Vol 7, Issue 2  https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1469-1809.1936.tb02137.x
