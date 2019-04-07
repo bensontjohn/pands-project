@@ -6,4 +6,9 @@ import pandas
 
 dataset = pandas.read_csv('iris.csv')
 
-print(dataset)
+# To print the first 5 rows from the dataset
+
+print(dataset.head())
+
+# To find the number of rows and columns in the dataset
+print(dataset.shape)
