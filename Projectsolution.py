@@ -3,6 +3,7 @@
 
 # import pandas library module
 import pandas
+import matplotlib.pyplot as plt
 
 dataset = pandas.read_csv('iris.csv')
 
@@ -12,3 +13,6 @@ print(dataset.head())
 
 # To find the number of rows and columns in the dataset
 print(dataset.shape)
+
+dataset.hist()
+plt.show()
