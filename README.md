@@ -21,6 +21,11 @@ Each species of flowers has 4 features/attributes in centimeters(cms). They are:
 One type of iris plant is linearly separable from the other 2 but these 2 are not linearly separable from each other. This is one of the most widely known database used in pattern recognition works and Fisher’s paper on it is frequently referenced. 
 
 
+Below is the histogram of the plots for each measurement.
+
+![Histogram](https://github.com/bensontjohn/pands-project/blob/master/Histogram.png)
+
+
 References:
 
 1.	Fisher, RA (1936) The use of multiple measuremetns in taxonomic problems. Annals of Eugenics Vol 7, Issue 2  https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1469-1809.1936.tb02137.x
