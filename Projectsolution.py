@@ -7,10 +7,6 @@ import pandas as pd
 #import matplotlib.pyplot
 import matplotlib.pyplot as plt
 
-import numpy
-
-df = pd.read_csv (r'iris.csv')
-
 # read the csv dataset and store in dataset variable
 dataset = pd.read_csv('iris.csv')
 
