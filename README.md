@@ -20,6 +20,24 @@ Each species of flowers has 4 features/attributes in centimeters(cms). They are:
 
 One type of iris plant is linearly separable from the other 2 but these 2 are not linearly separable from each other. This is one of the most widely known database used in pattern recognition works and Fisher’s paper on it is frequently referenced. 
 
+The libraries used in this project are:
+
+1. Pandas - Open source, easy to use data structures and data analysis tool.
+2. Matplotlib - Plotting library used to embedd plots into applications.
+
+The iris dataset is imported using the pandas library.
+
+    import pandas as pd
+    dataset = pd.read_csv('iris.csv')
+
+To read the first 5 lines of data:
+
+    dataaset.head()
+
+To read the last 5 lines of data:
+
+    dataset.tail()
+
 
 Below is the histogram of the plots for each measurement.
 
