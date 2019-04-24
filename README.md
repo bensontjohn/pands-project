@@ -1,6 +1,15 @@
-# Project
+# Project  - Iris dataset
 
 This repository contains my Project for the module Programming and Scripting at GMIT [See here for the instructions] (https://github.com/ianmcloughlin/project-pands/raw/master/project.pdf)
+
+### How to download this repository:
+
+1. Go to Github.
+2. Click the download button.
+
+### How to run the code:
+
+1. Make sure you have Python installed.
 
 
 ### Background information:
@@ -25,21 +34,26 @@ The libraries used in this project are:
 1. Pandas - Open source, easy to use data structures and data analysis tool.
 2. Matplotlib - Plotting library used to embedd plots into applications.
 
-### The iris dataset is imported using the pandas library.
+### The iris dataset is imported using the pandas library:
 
     import pandas as pd
     dataset = pd.read_csv('iris.csv')
 
+### To find the number of rows and columns in the dataset:
+
+    dataset.shape
+
 ### To read the first 5 lines of data:
 
-    dataaset.head()
+    dataset.head()
 
 ### To read the last 5 lines of data:
 
     dataset.tail()
 
 
-### Below is the histogram of the plots for each measurement.
+### Below is the histogram of the plots for each measurement:
+
 
 ![Histogram](https://github.com/bensontjohn/pands-project/blob/master/Histogram.png)
 
@@ -50,3 +64,4 @@ The libraries used in this project are:
 2.	Sir Ronald Aylmer Fisher. Encylopedia Britannica, Last Updated Feb 13, 2019. https://www.britannica.com/biography/Ronald-Aylmer-Fisher
 3.	 Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science.   https://archive.ics.uci.edu/ml/datasets/iris
 4.	https://machinelearningmastery.com/machine-learning-in-python-step-by-step/ Your First Machine Learning Project in Python Step-By-Step by Jason Brownlee on June 10, 2016 in Python Machine Learning
+5.  https://github.com/RitRa/Project2018-iris 
