@@ -1,9 +1,9 @@
-Project
+#Project
 
 This repository contains my Project for the module Programming and Scripting at GMIT [See here for the instructions] (https://github.com/ianmcloughlin/project-pands/raw/master/project.pdf)
 
 
-Background information:
+###Background information:
 
 Iris dataset is a set of data introduced by Sir. R.A. Fisher, who was a British geneticist and statistician (1890-1962). He was one of the greatest scientist of the 20th generation and was one of the first to apply statistical procedures in designing scientific experimentation. The Iris dataset contains data from 50 samples each of three species of the Iris flower picked at random. The three species are:
 
@@ -25,26 +25,26 @@ The libraries used in this project are:
 1. Pandas - Open source, easy to use data structures and data analysis tool.
 2. Matplotlib - Plotting library used to embedd plots into applications.
 
-The iris dataset is imported using the pandas library.
+###The iris dataset is imported using the pandas library.
 
     import pandas as pd
     dataset = pd.read_csv('iris.csv')
 
-To read the first 5 lines of data:
+###To read the first 5 lines of data:
 
     dataaset.head()
 
-To read the last 5 lines of data:
+###To read the last 5 lines of data:
 
     dataset.tail()
 
 
-Below is the histogram of the plots for each measurement.
+###Below is the histogram of the plots for each measurement.
 
 ![Histogram](https://github.com/bensontjohn/pands-project/blob/master/Histogram.png)
 
 
-References:
+###References:
 
 1.	Fisher, RA (1936) The use of multiple measuremetns in taxonomic problems. Annals of Eugenics Vol 7, Issue 2  https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1469-1809.1936.tb02137.x
 2.	Sir Ronald Aylmer Fisher. Encylopedia Britannica, Last Updated Feb 13, 2019. https://www.britannica.com/biography/Ronald-Aylmer-Fisher
