@@ -77,8 +77,11 @@ The libraries used in this project are:
 
 ![Histogram](https://github.com/bensontjohn/pands-project/blob/master/Histogram.png)
 
+### Summary
 
-To summarise this project research, different methods were used to analyse the iris dataset. The pandas library was used to read the iris dataset which is in a csv format, there are total 150 rows and 5 columns in the dataset for species. Minimum and Maximum values of the each of the attributes were calculate using min and max methods. Also, calculated mean, percentile of the attributes. A histogram plot of the dataset was also done.
+To summarise this project research, different methods were used to analyse the iris dataset. The pandas library was used to read the iris dataset which is in a csv format, there are total 150 rows and 5 columns in the dataset for species. Minimum and Maximum values for each of the attributes were calculated using min and max methods. Also, calculated mean, percentile of the attributes. A histogram plot of the dataset was also done.
+
+Based on the investigation, it is clear that the iris Setosa has a smaller petal width and petal length than the other two species. This difference occurs again for the Petal width and Sepal length. In both cases, the Iris Viginica is the largest species.
 
 ### References:
 
