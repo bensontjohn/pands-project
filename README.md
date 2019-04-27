@@ -11,6 +11,9 @@ This repository contains my Project for the module Programming and Scripting at 
 
 1. Make sure you have Python installed.
 
+### Project Design
+
+This project is to do a research on the Iris dataset, summarise the dataset using a Python script and a quick summary of the investigation.
 
 ### Background information:
 
@@ -28,6 +31,8 @@ Each species of flowers has 4 features/attributes in centimeters(cms). They are:
 4.	Petal width
 
 One type of iris plant is linearly separable from the other 2 but these 2 are not linearly separable from each other. This is one of the most widely known database used in pattern recognition works and Fisher’s paper on it is frequently referenced. 
+
+The dataset was found in the given link in csv format: https://gist.github.com/curran/a08a1080b88344b0c8a7.
 
 ![](https://cdn-images-1.medium.com/max/1200/1*2uGt_aWJoBjqF2qTzRc2JQ.jpeg)
 
@@ -53,6 +58,19 @@ The libraries used in this project are:
 
     dataset.tail()
 
+### Investigation of the data:
+
+    dataset.min()
+    dataset.max()
+    dataset.mean()
+
+### Summary statistics:
+
+    summary = dataset.describe()
+    summary = summary.transpose()
+    summary.head()
+
+![Table of Summary statistics](https://github.com/bensontjohn/pands-project/blob/master/summary_statistics.png)
 
 ### Below is the histogram of the plots for each measurement:
 
@@ -60,10 +78,13 @@ The libraries used in this project are:
 ![Histogram](https://github.com/bensontjohn/pands-project/blob/master/Histogram.png)
 
 
+To summarise this project research, different methods were used to analyse the iris dataset. The pandas library was used to read the iris dataset which is in a csv format, there are total 150 rows and 5 columns in the dataset for species. Minimum and Maximum values of the each of the attributes were calculate using min and max methods. Also, calculated mean, percentile of the attributes. A histogram plot of the dataset was also done.
+
 ### References:
 
 1.	Fisher, RA (1936) The use of multiple measuremetns in taxonomic problems. Annals of Eugenics Vol 7, Issue 2  https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1469-1809.1936.tb02137.x
 2.	Sir Ronald Aylmer Fisher. Encylopedia Britannica, Last Updated Feb 13, 2019. https://www.britannica.com/biography/Ronald-Aylmer-Fisher
 3.	 Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science.   https://archive.ics.uci.edu/ml/datasets/iris
-4.	https://machinelearningmastery.com/machine-learning-in-python-step-by-step/ Your First Machine Learning Project in Python Step-By-Step by Jason Brownlee on June 10, 2016 in Python Machine Learning
-5.  https://github.com/RitRa/Project2018-iris 
+4.	Your First Machine Learning Project in Python Step-By-Step by Jason Brownlee on June 10, 2016 in Python Machine Learning https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
+5. Python Iris project:  https://github.com/RitRa/Project2018-iris 
+6. Python | Pandas Dataframe: https://www.geeksforgeeks.org/python-pandas-dataframe/
