@@ -29,7 +29,7 @@ Each species of flowers has 4 features/attributes in centimeters(cms). They are:
 
 One type of iris plant is linearly separable from the other 2 but these 2 are not linearly separable from each other. This is one of the most widely known database used in pattern recognition works and Fisher’s paper on it is frequently referenced. 
 
-![Iris setosa](https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Kosaciec_szczecinkowaty_Iris_setosa.jpg/330px-Kosaciec_szczecinkowaty_Iris_setosa.jpg)
+![](https://cdn-images-1.medium.com/max/1200/1*2uGt_aWJoBjqF2qTzRc2JQ.jpeg)
 
 The libraries used in this project are:
 
